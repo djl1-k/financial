@@ -42,7 +42,7 @@ class MyAlertDialog extends StatelessWidget {
                   hintText: "Description", obscureText: false, controller: descriptionController, maxLine: 10,
                 )
               ),
-              SizedBox(height: 10),
+              SizedBox(height: 11),
               Container(
                 width: 300,
                 child: MyTextField(
