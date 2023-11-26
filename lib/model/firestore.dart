@@ -2,7 +2,8 @@
 import 'dart:async';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-class FireStoreServices {
+
+class FireStoreServices{
 
   static final FireStoreServices _singleton = FireStoreServices._internal();
 

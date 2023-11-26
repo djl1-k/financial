@@ -27,7 +27,7 @@ class MyButton extends StatelessWidget implements CustomButton{
       ),
       child: Center(
         child: Text(
-          'Log In',
+          text,
           style: TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,

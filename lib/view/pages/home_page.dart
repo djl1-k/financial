@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, sort_child_properties_last, sized_box_for_whitespace, prefer_interpolation_to_compose_strings
+// ignore_for_file: prefer_const_constructors, avoid_unnecessary_containers, prefer_const_literals_to_create_immutables, sort_child_properties_last, sized_box_for_whitespace, prefer_interpolation_to_compose_strings, no_logic_in_create_state
 
 import "package:cloud_firestore/cloud_firestore.dart";
 import 'package:financial_app/view/reusable_widgets/my_alert_dialog.dart';
@@ -20,6 +20,7 @@ class _HomePageState extends State<HomePage> {
   final financeController = TextEditingController();
   final fireStoreServices = FireStoreServices();
   final user = FirebaseAuth.instance.currentUser!;
+
 
   // Dialog Box for adding expense
   void openDialogBox({String? docId, required bool editing}){
